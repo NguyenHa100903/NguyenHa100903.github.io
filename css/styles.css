@@ -135,7 +135,7 @@ html {
 
 /* SLIDER */
 #slider {
-    background: url(/assets/img/slider/slider1.jpeg) top center / cover no-repeat;
+    background: url(img/slider/slider1.jpeg) top center / cover no-repeat;
     padding-top:50%;/*phần padding có chiều dài bằng 50% của thẻ cha*/
     position:relative;
     margin-top:46px;
