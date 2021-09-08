@@ -135,10 +135,14 @@ html {
 
 /* SLIDER */
 #slider {
-    background: url(img/slider/slider1.jpeg) top center / cover no-repeat;
-    padding-top:50%;/*phần padding có chiều dài bằng 50% của thẻ cha*/
+    padding-top:0;/*phần padding có chiều dài bằng 50% của thẻ cha*/
     position:relative;
     margin-top:46px;
+}
+#slider img {
+    width:100%;
+    background-size:cover;
+    background-position: top center;
 }
 #slider .text-content {
     color:#fff;
